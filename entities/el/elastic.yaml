@@ -1,16 +1,18 @@
-schema_version: sourcey.vendor-authoring/v1alpha1
-entity_id: ent_01m0jbmtz4hdp8nkfqk33qz9gv
-slug: elastic
-slug_aliases: []
-name: Elastic
-domains:
-  - value: elastic.co
-    role: primary
-    valid_from: 2026-08-21T14:30:00.000Z
-category: devtools-other
-description: Elastic provides search, observability, and security products through the Elastic Search AI Platform and Elastic Cloud.
-links:
-  site: https://www.elastic.co/
+schema_version: sourcey.entity-authoring/v1alpha1
+entity:
+  entity_id: ent_01m0jbmtz4hdp8nkfqk33qz9gv
+  slug: elastic
+  slug_aliases: []
+  name: Elastic
+  domains:
+    - value: elastic.co
+      role: primary
+      valid_from: 2026-08-21T14:30:00.000Z
+  category: devtools-other
+profile:
+  description: Elastic provides search, observability, and security products through the Elastic Search AI Platform and Elastic Cloud.
+  links:
+    site: https://www.elastic.co/
 sources:
   - source_id: src_d57480011c0c92ce6685ecb2137c6c70e215352a0e927dfb50ac90e866787126
     url: https://www.elastic.co/partners/aws-marketplace-offer-application-faq
