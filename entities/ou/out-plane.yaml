@@ -1,16 +1,18 @@
-schema_version: sourcey.vendor-authoring/v1alpha1
-entity_id: ent_01m0jchqss1r23fq2xav2yx468
-slug: out-plane
-slug_aliases: []
-name: Out Plane
-domains:
-  - value: outplane.com
-    role: primary
-    valid_from: 2026-08-21T14:48:00.000Z
-category: hosting-infra
-description: Out Plane is a cloud platform for deploying applications with managed compute, databases, storage, networking, and developer workflows.
-links:
-  site: https://outplane.com/
+schema_version: sourcey.entity-authoring/v1alpha1
+entity:
+  entity_id: ent_01m0jchqss1r23fq2xav2yx468
+  slug: out-plane
+  slug_aliases: []
+  name: Out Plane
+  domains:
+    - value: outplane.com
+      role: primary
+      valid_from: 2026-08-21T14:48:00.000Z
+  category: hosting-infra
+profile:
+  description: Out Plane is a cloud platform for deploying applications with managed compute, databases, storage, networking, and developer workflows.
+  links:
+    site: https://outplane.com/
 sources:
   - source_id: src_60802799077990eb059e516b000cbd771eaf2b2d3adb1ee0baea886dadd7e902
     url: https://outplane.com/runway
