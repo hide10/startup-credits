@@ -1,16 +1,18 @@
-schema_version: sourcey.vendor-authoring/v1alpha1
-entity_id: ent_01m0jf9sx1n80za0031wa4wr41
-slug: refinder
-slug_aliases: []
-name: Refinder
-domains:
-  - value: refinder.ai
-    role: primary
-    valid_from: 2026-08-21T15:33:49.000Z
-category: productivity
-description: Refinder provides AI-powered search and assistant capabilities across connected company data and work applications.
-links:
-  site: https://refinder.ai/
+schema_version: sourcey.entity-authoring/v1alpha1
+entity:
+  entity_id: ent_01m0jf9sx1n80za0031wa4wr41
+  slug: refinder
+  slug_aliases: []
+  name: Refinder
+  domains:
+    - value: refinder.ai
+      role: primary
+      valid_from: 2026-08-21T15:33:49.000Z
+  category: productivity
+profile:
+  description: Refinder provides AI-powered search and assistant capabilities across connected company data and work applications.
+  links:
+    site: https://refinder.ai/
 sources:
   - source_id: src_4386c5dc42bac3e7e3e72ae2cf655695a92de3d46c3dc3a622ddb4ae4b722204
     url: https://refinder.ai/startup-program/
