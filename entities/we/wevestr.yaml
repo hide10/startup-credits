@@ -1,0 +1,72 @@
+schema_version: sourcey.entity-authoring/v1alpha1
+entity:
+  entity_id: ent_01m1s03pxm26znwefpb8h1aewx
+  slug: wevestr
+  slug_aliases: []
+  name: WE.VESTR
+  domains:
+    - value: wevestr.com
+      role: primary
+      valid_from: 2026-09-05T14:35:00.000Z
+  category: finance-accounting
+profile:
+  description: WE.VESTR provides equity management software for cap tables, shareholder reporting, fundraising, and employee equity plans.
+  links:
+    site: https://wevestr.com/
+sources:
+  - source_id: src_20d5d2e5406b5de70c762837f1fc686a409782108a7a5cf4f56bf2bea9eeff85
+    url: https://wevestr.com/microsoft-for-startups
+  - source_id: src_d2e33b5e533d1c25998e0a5f6546dad82e87a6b876f89976d1f4bd18041deaf0
+    url: https://learn.microsoft.com/en-us/startups/benefits/technical-benefits/third-party-benefits/we-vestr
+programs: []
+offers:
+  - offer_id: off_01m1s03pxmsy9kg3ss4y9p8y96
+    offer_slug: microsoft-for-startups-paid-plan-discount
+    offer_slug_aliases: []
+    title: 70% off WE.VESTR paid plans for Microsoft for Startups members
+    summary: Eligible new WE.VESTR customers with 30 or more stakeholders receive 70% off paid plans for their first 12 months through Microsoft for Startups.
+    lifecycle:
+      status: active
+      effective_from: 2026-09-05T14:35:00.000Z
+    economics:
+      consideration:
+        kind: variable
+        description: A paid WE.VESTR subscription is required; the discounted price depends on the selected plan and stakeholder count.
+      benefits:
+        - benefit_id: ben_paid_plan_discount
+          kind: discount
+          description: 70% off a paid WE.VESTR plan for the first year from activation.
+          percentage:
+            kind: exact
+            basis_points: 7000
+          duration:
+            kind: exact
+            value: P1Y
+    eligibility:
+      rule:
+        kind: all
+        rules:
+          - kind: manual
+            criterion_id: cri_microsoft_membership
+            statement: The startup is backed by a VC, accelerator, incubator, or university in the Microsoft Investor Network and has this benefit available in Microsoft for Startups.
+            reason: external-verification
+          - kind: manual
+            criterion_id: cri_new_customer
+            statement: The startup is a new WE.VESTR customer.
+            reason: external-verification
+          - kind: manual
+            criterion_id: cri_paid_plan_stakeholders
+            statement: The startup has 30 or more stakeholders and selects a paid plan. Stakeholders include founders, employees with equity, investors, advisors, or anyone holding shares or options.
+            reason: external-verification
+    roles:
+      terms_authority_entity_id: ent_01m1s03pxm26znwefpb8h1aewx
+      access_operator_entity_id: ent_01kyh8fpe3n3yye39kmzvy410z
+    access:
+      availability: membership
+      method: other
+      url: https://portal.startups.microsoft.com/login
+      instructions: Sign in to Microsoft for Startups, open Benefits, and redeem WE.VESTR. Follow the vendor landing-page prompts; membership verification is required for the discount.
+    terms_url: https://wevestr.com/terms-and-conditions
+    source_ids:
+      - src_20d5d2e5406b5de70c762837f1fc686a409782108a7a5cf4f56bf2bea9eeff85
+      - src_d2e33b5e533d1c25998e0a5f6546dad82e87a6b876f89976d1f4bd18041deaf0
