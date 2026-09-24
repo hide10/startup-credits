@@ -24,7 +24,7 @@ programs:
     program_slug: refinder-startup-program
     program_slug_aliases: []
     title: Refinder Startup Program
-    summary: Refinder's Startup Program gives qualifying early-stage companies a free year of Refinder, a second-year discount, one-on-one sessions with the Refinder team, and early feature access.
+    summary: The Refinder Startup Program gives early-stage startups one year of free access to every feature, a 50% discount on the second year, expert one-on-ones, and early access to new features.
     source_ids:
       - src_dab3a15feb83d8a34ba7182dc894ce8bf9699be9692aff856ebbe8d056f7ec56
 offers:
@@ -40,7 +40,7 @@ offers:
     economics:
       consideration:
         kind: variable
-        description: The first 12 months are free; continuing for a second year costs 50% of the regular Refinder price.
+        description: The startup receives one year of free access to every feature, plus a 50% discount on its second year.
       benefits:
         - benefit_id: ben_year_01
           description: One year of free access to all Refinder features
