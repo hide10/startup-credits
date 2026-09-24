@@ -26,7 +26,7 @@ offers:
     offer_slug: microsoft-for-startups-paid-plan-discount
     offer_slug_aliases: []
     title: First-year discount for Microsoft for Startups Founders Hub members
-    summary: Verified Microsoft for Startups Founders Hub members get a first-year discount on WE.VESTR's paid plans, with Grow at EUR 45 and Scale at EUR 126 per month instead of the standard EUR 150 and EUR 420.
+    summary: Members of Microsoft for Startups Founders Hub get a discount for the first year, with Grow shown at EUR 45 and Scale at EUR 126 per month, applicable on verification of membership.
     lifecycle:
       status: active
       effective_from: 2026-09-05T14:35:00.000Z
@@ -37,7 +37,7 @@ offers:
       benefits:
         - benefit_id: ben_paid_plan_discount
           kind: other
-          description: A first-year discount on the standard plans, with Grow (up to 50 stakeholders) at EUR 45 per month instead of EUR 150 and Scale (up to 150 stakeholders) at EUR 126 per month instead of EUR 420.
+          description: A discount for the first year for members of Microsoft for Startups Founders Hub, with Grow shown at EUR 45 and Scale at EUR 126 per month.
     eligibility:
       rule:
         kind: manual
